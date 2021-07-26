@@ -3,8 +3,10 @@ package day1;
 public class test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		double d = 3.14f;
+		
+		System.out.println(d);
+		
 
 	}
-
 }
