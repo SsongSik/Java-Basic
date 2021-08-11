@@ -10,5 +10,6 @@ public class TvTest {
 		System.out.println("현재 채널은 "+t.channel+"입니다.");
 
 	}
-
 }
+// 결과
+// 현재 채널은 6입니다.
