@@ -1,0 +1,26 @@
+package day3;
+
+public class ArrayEx6 {
+
+	public static void main(String[] args) {
+		int[] score = {60, 88, 91, 33, 100, 55, 95};
+		
+		int max = score[0];
+		int min = score[0];
+		
+		for(int i=0; i<score.length; i++) 
+		{
+			if(score[i]>max)
+				max=score[i];
+			else if(score[i]<min)
+				min=score[i];
+		}
+		System.out.println("ÃÖ´ñ°ª : "+max);
+		System.out.println("ÃÖ¼Ú°ª : "+min);
+	}
+
+}
+/*°á°ú
+ÃÖ´ñ°ª : 100
+ÃÖ¼Ú°ª : 33
+*/
