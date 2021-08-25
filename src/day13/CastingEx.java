@@ -9,7 +9,7 @@ public class CastingEx {
 		
 		fe.water();
 		car = fe; //car = (Car)fe;
-		//car.water() ; 에러발생. 
+//		car.water();
 		fe2 = (FireEngine) car;
 		fe2.water();
 	}
