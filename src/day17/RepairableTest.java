@@ -12,7 +12,9 @@ public class RepairableTest {
 		scv.repair(tank);
 		scv.repair(dropship);
 //		scv.repair(marine); 에러발생
-
 	}
-
 }
+/*결과
+Tank의 수리가 끝났습니다.
+Dropship의 수리가 끝났습니다.
+*/
